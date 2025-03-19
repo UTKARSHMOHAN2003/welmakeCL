@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { Testimonialdata} from '../data/Testimonaldata';
-
 const TestimonialCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -25,24 +24,22 @@ const TestimonialCarousel = () => {
         <h2 className="text-7xl font-baloo  font-bold mb-2">DON'T TAKE</h2>
         <h2 className="text-7xl  font-baloo font-bold mb-2 text-[#F9D423]">OUR WORDS FOR IT</h2>
         <p className="text-xl font-baloo font-semibold mb-4">READ WHAT OUR CUSTOMERS HAVE TO SAY :</p>
-        
         <div className="relative mb-8">
           <div className="bg-white rounded-lg p-8 text-[#005486] min-h-[200px] w-full max-w-[800px]  flex items-center justify-center shadow-lg">
             <div className="max-w-3xl mx-auto">
               <p className="text-xl font-baloo italic mb-6">"{currentTestimonial.quote}"</p>
               <div className="flex justify-end">
-               
-              
-            
-              
               </div>
             </div>
+
           </div>
+       
         </div>
-        
+       
         <div className="flex justify-between items-center">
           <div className="font-bold font-baloo text-xl">{currentTestimonial.author}</div>
           <div className="flex gap-4">
+       
             <button 
               onClick={goToPrevious} 
               className="bg-[#C2803D] hover:bg-[#A56D34] text-white  p-4 rounded-full transition-colors"

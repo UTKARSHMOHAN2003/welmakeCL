@@ -1,4 +1,5 @@
 import ProductShowcase from "./Components/Addsection";
+import AutoPlayCarousel from "./Components/AutoPlayCarousel";
 import Footer from "./Components/Footer";
 import HeroSection from "./Components/Herosection";
 import WhyWelMakeSection from "./Components/Midsection";
@@ -10,6 +11,7 @@ export default function App() {
     <div className="">
       <WelMakeNavbar></WelMakeNavbar>
       <HeroSection></HeroSection>
+      <AutoPlayCarousel/>
       <WhyWelMakeSection></WhyWelMakeSection>
       <ProductShowcase></ProductShowcase>
       <TestimonialCarousel/>
