@@ -39,7 +39,7 @@ export default function ShareMoments() {
             </div>
           </div>
         </div>
-        
+
         {/* Phone-style video container */}
         <div className="w-full lg:w-3/5 flex justify-center items-center">
           <div className="relative w-64 sm:w-72 md:w-80 h-[360px] sm:h-[420px] md:h-[480px] bg-black rounded-3xl shadow-xl flex flex-col items-center p-2 md:p-3">
@@ -56,30 +56,34 @@ export default function ShareMoments() {
                 muted
                 playsInline
               />
-               
             </div>
-           
+
             {/* Phone home button */}
             <div className="w-24 sm:w-28 md:w-36 h-1 bg-gray-400 rounded-full mt-2"></div>
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center text-4xl md:text-5xl lg:text-8xl font-bold font-baloo mt-6 text-blue-800 mb-2 mx-4 md:mx-8 lg:mx-12">@WELMAKE</div>
-      
+      <div className="flex justify-center items-center text-4xl md:text-5xl lg:text-8xl font-bold font-baloo mt-6 text-blue-800 mb-2 mx-4 md:mx-8 lg:mx-12">
+        @WELMAKE
+      </div>
+
       {/* Instagram EmbedSocial Feed Below the Section */}
-      <div className="w-full mt-10 bg-Byellow">
+      <div className="w-full mt-10 ">
         <div
           className="embedsocial-hashtag"
           data-ref="5e2b3614feef10d2f4a99ffee6c869be3268f68f"
-        >
-        </div>
+        ></div>
         <div className="flex items-center justify-center">
-            <a href="https://www.instagram.com/welmake_india/" target="_blank" rel="noopener noreferrer">
-              <button className="bg-[#C2803D] text-white font-baloo font-semibold rounded-md px-4 py-2 m-6 text-2xl hover:bg-amber-600 transition-all">
-                FOLLOW US
-              </button>
-            </a>
-           </div>
+          <a
+            href="https://www.instagram.com/welmake_india/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="bg-[#C2803D] text-white font-baloo font-semibold rounded-md px-4 py-2 m-6 text-2xl hover:bg-amber-600 transition-all">
+              FOLLOW US
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   );
